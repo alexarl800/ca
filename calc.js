@@ -4,13 +4,13 @@ function adicionarValor(valor) {
 }
 
 function calcular() {
-    var resultado = document.getElementById('resultado');
-    var expressao = resultado.value;
-    try {
-        resultado.value = eval(expressao);
-    } catch (e) {
-        resultado.value = "Algo de errado não está certo!!";
-    }
+var resultado = document.getElementById('resultado');
+var expressao = resultado.value;
+try {
+resultado.value = eval(expressao);
+} catch (e) {
+resultado.value = "Algo de errado não está certo!!";
+}
 }
 
 function limpar() {
