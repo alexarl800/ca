@@ -9,7 +9,7 @@ function calcular() {
     try {
         resultado.value = eval(expressao);
     } catch (e) {
-        resultado.value = "Algo de errado não está certo";
+        resultado.value = "Algo de errado não está certo!!";
     }
 }
 
